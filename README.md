@@ -1,0 +1,1 @@
+This is my personal portfolio proile where I showcase my work. I have build it using HTML, CSS, and JavaScript.
