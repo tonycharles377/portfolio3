@@ -80,3 +80,109 @@ header {
 .logo:hover {
     cursor: pointer;
 }
+
+
+/*SECTION GENERAL*/
+section:not(#hero-profile) {
+    padding-top: 16vh;
+    height: 96vh;
+    margin: 0 10rem;
+    min-height: fit-content;
+}
+
+
+/*HERO PROFILE SECTION*/
+#hero-profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10rem;
+    height: 88vh;
+}
+
+.hero-pic-container {
+    width: 50%;
+    min-width: 200px;
+    width: 50%;
+}
+
+.hero-pic-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.section-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.section-text-p1 {
+    font-weight: 500;
+    text-align: center;
+}
+
+.section-text-p2 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.title {
+    font-size: 3.1rem;
+    text-align: center;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.btn {
+    font-weight: 600;
+    width: 8rem;
+    border-radius: 2rem;
+    padding: 1rem 0;
+}
+
+.btn-color-1,
+.btn-color-2 {
+    border: rgb(53, 53, 53) .1rem solid;
+}
+
+.btn-color-1:hover,
+.btn-color-2:hover {
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-color-1,
+.btn-color-2:hover {
+    background: rgb(53, 53, 53);
+    color: white;
+}
+
+.btn-color-1:hover {
+    background: rgb(0, 0, 0);
+    color: white;
+}
+
+#socials-container {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.icon {
+    height: 2rem;
+}
+
+.icon:hover {
+    cursor: pointer;
+    filter: brightness(0.8);
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
