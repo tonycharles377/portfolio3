@@ -45,6 +45,13 @@ const navToggle = document.querySelector('.nav-toggle');
             });
         });
 
+        window.addEventListener('resize', () => {
+            if (window.innerWidth > 900) {
+                desktopNav.classList.remove('nav-open');
+                navToggle.setAttribute('aria-expanded', 'false');
+            }
+        });
+
         // Handle direct link (page load with hash)
         window.addEventListener('DOMContentLoaded', () => {
             if (location.hash) {

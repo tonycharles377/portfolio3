@@ -612,6 +612,12 @@ section {
     }
 }
 
+@media (min-width: 901px) {
+    .nav-toggle {
+        display: none;
+    }
+}
+
 @media (max-width: 650px) {
     html {
         font-size: 15px;
@@ -730,9 +736,9 @@ section {
 @media (max-width: 425px) {
     .btn {
         width: 100%;
-        max-width: 140px;
-        padding: 0.85rem 0;
-        font-size: 0.95rem;
+        max-width: 150px;
+        padding: 0.95rem 1rem;
+        font-size: 1rem;
     }
 
     #hero-profile .btn-container {
@@ -740,6 +746,23 @@ section {
         align-items: center;
         gap: 0.85rem;
         justify-content: center;
+    }
+}
+
+@media (max-width: 230px) {
+    .btn {
+        width: 100%;
+        max-width: 100%;
+        padding: 1rem 1rem;
+        font-size: 0.95rem;
+    }
+
+    .btn-container {
+        gap: 0.75rem;
+    }
+
+    #hero-profile .btn-container {
+        gap: 0.75rem;
     }
 
     .section-text-p2 {
